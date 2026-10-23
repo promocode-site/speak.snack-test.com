@@ -24,6 +24,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
     <style>
+        .slide {
+            pointer-events: none;
+        }
+        .slide.active {
+            pointer-events: auto;
+        }
         .fade-in {
             opacity: 0;
             transform: translateY(20px);
